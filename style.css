@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bienvyfoto {
+    background-color: darkgray;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.bienvenido {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.fotoalejo {
+   text-align: center;
+   padding: 20px;
+}
+
+.main1{
+    margin: 50px 100px;
+    padding: 50px;
+    background-color: whitesmoke;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+article{
+    padding-top: 25px;
+}
+
+.footer_inicio{
+    background-color: lightblue;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/*PROYECTOS*/
+
+.proyectos{
+    margin: 10px 0;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: darkgrey;
+    font-weight: bold;
+}
+
+/*CONTACTO*/
+
+.contactame{
+    padding: 100px;
+}
+
+.main2{
+    margin: 50px 100px;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+label ,input{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+}
