@@ -31,42 +31,49 @@
             </div>
         </nav> 
         
-        <h1 class="bienvenido contactame">Contactame!</h1>
+        <h1 class="container text-center bienvenido contactame">Contactame!</h1>
     
     </header>
 
     <main class="main2">
-
-        <h2>¡Dejame tus datos y en breve te estaré contactando!</h2>
     
-        <form action="" method="get">
+        <div class="container">
+          <h2>¡Dejame tus datos y en breve te estaré contactando!</h2>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido</label>
+              <input type="text" class="form-control" placeholder="Ingresa tu apellido">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" placeholder="Ingresa tu email">
+            </div>
+            <div class="form-group">
+              <label for="celular">Celular</label>
+              <input type="tel" class="form-control" placeholder="Ingresa tu número de celular">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
 
-            <div class="elemento_form"><label for="name">Nombre</label>
-            <input type="text" name="name" id="name"></div>
-                
-            <div class="elemento_form"><label for="surname">Apellido</label>
-            <input type="text" name="surname" id="surname"></div>
-
-            <div class="elemento_form"><label for="phone">Celular</label>
-            <input type="tel" name="phone" id="phone"></div>
-
-            <div class="elemento_form"><label for="email">E-mail</label>
-            <input type="email" name="email" id="email"></div>
-
-            <div class="elemento_form"><label for="message">Mensaje</label>
-            <input type="textarea" name="message" id="message"></div>
-
-            <input type="submit" value="Enviar">
-            
-        </form>
-
-        <article>
-            También te dejo mis redes sociales para seguir en contacto!
-            <a href="https://www.linkedin.com/in/alejopalumbo/">Linkedin</a>
+        <article class="container">
+            <p>También te dejo mis redes sociales para seguir en contacto!
+            <a href="https://www.linkedin.com/in/alejopalumbo/">Linkedin</a></p>
         </article>
 
     </main>
 
+    <footer>
+
+    </footer>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
