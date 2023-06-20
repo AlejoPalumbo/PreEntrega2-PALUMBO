@@ -1,0 +1,61 @@
+label {
+  margin-top: 10px;
+}
+
+button {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #2a2f31;
+  padding: 50px;
+}
+footer li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.bienvyfoto {
+  background-color: #a5a0a6;
+  padding: 20px;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  background-color: #a5a0a6;
+}
+
+.title {
+  padding: 100px 0;
+}
+
+.fotoalejo {
+  text-align: center;
+}
+
+.home {
+  margin-bottom: 10px;
+}
+
+article {
+  border-color: #2a2f31;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

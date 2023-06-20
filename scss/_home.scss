@@ -1,0 +1,37 @@
+.bienvyfoto {
+    background-color: $tertiary-color;
+    padding: 20px;
+}
+
+.foto{
+    width: 200px; 
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    background-color: $tertiary-color;
+}
+
+
+.title{
+    padding: 100px 0;
+}
+
+.fotoalejo{
+   text-align: center;
+}
+
+.home{
+    margin-bottom: 10px;
+}
+
+article{
+    border-color: $dark;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
