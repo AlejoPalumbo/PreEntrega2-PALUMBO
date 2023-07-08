@@ -1,11 +1,9 @@
 footer{
     background-color: $dark;
     padding: 50px;
-    li{
-        a{
-            list-style-type: none;
-            text-decoration: none;
-            color: white;
-        }
-    }
+    a{
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+    }   
 }

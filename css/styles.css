@@ -1,3 +1,8 @@
+.imagen {
+  height: 350px;
+  width: 100%;
+}
+
 label {
   margin-top: 10px;
 }
@@ -10,15 +15,18 @@ footer {
   background-color: #2a2f31;
   padding: 50px;
 }
-footer li a {
+footer a {
   list-style-type: none;
   text-decoration: none;
   color: white;
 }
 
 .bienvyfoto {
-  background-color: #a5a0a6;
-  padding: 20px;
+  background-image: url(../media/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .foto {
@@ -26,7 +34,7 @@ footer li a {
   height: 200px;
 }
 
-h1 {
+.title {
   text-align: center;
   font-weight: bold;
   background-color: #a5a0a6;

@@ -1,6 +1,9 @@
 .bienvyfoto {
-    background-color: $tertiary-color;
-    padding: 20px;
+    background-image: url(../media/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 .foto{
@@ -8,12 +11,11 @@
     height: 200px;
 }
 
-h1{
+.title{
     text-align: center;
     font-weight: bold;
     background-color: $tertiary-color;
 }
-
 
 .title{
     padding: 100px 0;
